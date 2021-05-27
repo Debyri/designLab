@@ -285,4 +285,59 @@
   margin: 20px 20px;
 }
 
+@media screen and (max-width: 800px) {
+  .line {
+    width: 25%;
+  }
+
+  .working {
+    width: 65%;
+  }
+  .working-wrapper .icon-scroll {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+
+  .about {
+    margin: 50px auto;
+    width: 95%;
+  }
+
+  .services {
+    width: 95%;
+  }
+  .services-wrapper {
+    padding: 50px 0;
+  }
+  .services .line {
+    width: 25%;
+  }
+
+  .what {
+    margin: 50px auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+  }
+  .what-card {
+    width: 30%;
+  }
+  .what-card__text {
+    display: none;
+  }
+
+  .grid {
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 150px;
+  }
+  .grid__item {
+    grid-column: span 1/auto;
+  }
+
+  .contact {
+    width: 95%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
